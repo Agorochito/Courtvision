@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.db
+*.db-*
+*.db-shm
+*.db-wal
+*.db-journal
+.DS_Store
+.env
+.env.*
+backup_before_redesign/
+.streamlit/secrets.toml
