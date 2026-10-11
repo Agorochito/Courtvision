@@ -24,13 +24,13 @@ The project combines real NBA data with statistical analysis and a basketball-in
 ![CourtVision Statistical Visualizations](screenshots/player-stats.png)
 
 ### Head-to-Head Comparison
-![CourtVision Player Comparison](screenshots/player-comparison.png)
+![CourtVision Player Comparison](screenshots/Player-comparison.png)
 
 ### Saved Player Statistics
 ![CourtVision Saved Players](screenshots/saved-players.png)
 
 
-### Saved Player Statistics
+### Saved Player Efficiency
 ![CourtVision Saved Player Efficiency](screenshots/player-efficiency.png)
 
 
