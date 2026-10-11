@@ -9,21 +9,25 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+
 from main import (
-    available_seasons,
     calculate_recent_form,
     calculate_scoring_consistency,
     calculate_stats,
-    career_rows,
     create_database,
-    find_player,
     generate_performance_insight,
-    get_game_log,
     get_saved_players,
     get_saved_season_stats,
-    get_shots,
     save_player,
     save_season_stats,
+)
+
+from snapshot_data import (
+    available_seasons,
+    career_rows,
+    find_player,
+    get_game_log,
+    get_shots,
 )
 
 st.set_page_config(
@@ -936,6 +940,11 @@ analysis_tab, compare_tab, saved_tab = st.tabs(
 # --------------------------------------------------
 
 with analysis_tab:
+
+    st.caption(
+        "CourtVision Demo · Explore 7 NBA players "
+        "using saved historical season data."
+    )
 
     with st.form("cv_analysis_form"):
         name = st.text_input(
