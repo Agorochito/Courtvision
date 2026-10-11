@@ -1,7 +1,7 @@
 # 🏀 CourtVision
 
 
-**[🚀 Launch CourtVision — Live NBA Analytics Dashboard](https://courtvision-lshtryw3bfxsvvnhtztyou.streamlit.app/)**
+**[🚀 Launch CourtVision — Live NBA Analytics Dashboard](https://courtvision-lshtryw3bfxsvvnhztzyou.streamlit.app)**
 
 **[View Source Code](https://github.com/Agorochito/Courtvision)**
 
