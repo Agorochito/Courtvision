@@ -140,19 +140,22 @@ Run:
 python test_consistency.py
 ```
 
+
 ## Current Limitations
 
-- NBA API availability and response times may affect data retrieval.
-- Some historical player portraits or shot-location records may be unavailable.
-- The SQLite database is local and is not intended as a permanently shared database when deployed on ephemeral cloud hosting.
-- Performance insights are descriptive rather than predictive.
+- The public demo currently supports seven NBA players and selected seasons.
+- Historical statistics are loaded from an exported NBA data snapshot rather than updated in real time.
+- Official NBA player portraits depend on NBA image availability.
+- Some player-season combinations may not contain shot-location data.
+- SQLite storage on Streamlit Community Cloud is not guaranteed to persist across app restarts or redeployments.
 
 ## Future Improvements
 
-- Interactive court-based shot charts.
-- More advanced player-comparison analytics.
-- Improved historical-season exploration.
-- Additional automated tests and API resilience.
+- Expand the dataset to cover more players and seasons.
+- Automate scheduled data updates.
+- Add persistent cloud database storage.
+- Improve historical comparisons and advanced basketball metrics.
+
 
 ## Author
 
