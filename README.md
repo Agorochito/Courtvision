@@ -1,10 +1,39 @@
 # 🏀 CourtVision
 
+
+**[🚀 Launch CourtVision — Live NBA Analytics Dashboard](https://courtvision-lshtryw3bfxsvvnhtztyou.streamlit.app/)**
+
+**[View Source Code](https://github.com/Agorochito/Courtvision)**
+
+> **Data note:** The public demo uses an exported snapshot of real NBA statistics. It currently supports seven players and selected seasons. Statistics are historical snapshots, not live updates.
+
+
 **An interactive NBA player analytics dashboard built with Python, Streamlit, and SQLite.**
 
 CourtVision allows basketball fans and analysts to explore NBA player statistics, evaluate season performance, visualize scoring trends, and compare players through an interactive web dashboard.
 
 The project combines real NBA data with statistical analysis and a basketball-inspired interface.
+
+
+## Dashboard Preview
+
+### Player Analysis
+![CourtVision Player Analysis](screenshots/player-analysis.png)
+
+### Statistical Visualizations
+![CourtVision Statistical Visualizations](screenshots/player-stats.png)
+
+### Head-to-Head Comparison
+![CourtVision Player Comparison](screenshots/player-comparison.png)
+
+### Saved Player Statistics
+![CourtVision Saved Players](screenshots/saved-players.png)
+
+
+### Saved Player Statistics
+![CourtVision Saved Player Efficiency](screenshots/player-efficiency.png)
+
+
 
 ## Features
 
